@@ -1,0 +1,84 @@
+/*style the country outlines and regions */
+path {
+    stroke-width: "2px"; 
+    stroke: black; 
+}
+
+/* modified background color because it has my name :) */
+body {
+  font: 13px sans-serif;
+background-color: aliceblue;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+p{
+    position: absolute;
+    left:30px;
+    top: 475px;
+}
+#resource{
+     position: absolute;
+    left:900px;
+    top: 200px;
+}
+#name{
+        position: absolute;
+    left:950px;
+    top: 600px;
+}
+
+
+#tooltip {
+position: absolute;
+top: -100px;
+left:-100px;
+width: 100px;
+height: auto;
+padding: 5px;
+background-color: darkseagreen;
+font-size: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+
+}
+
+
+#tooltip2 {
+position: absolute;
+top: -100px;
+left:-100px;
+width: 100px;
+height: auto;
+padding: 10px;
+background-color: white;
+font-size: 5px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+
+}
+
+
+/* Defines font size and where it is located at*/
+#tooltip p { margin: 0;
+font-family: sans-serif; font-size: 10px;
+    line-height: 15px; }
+#.tooltip-inner {
+    text-align: left;
+}
+
+#tooltip2 p { margin: 0;
+font-family: sans-serif; font-size: 5px;
+    line-height: 15px; }
+#.tooltip-inner {
+    text-align: left;
+}
