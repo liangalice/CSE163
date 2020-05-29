@@ -8,6 +8,9 @@ Canada's Temperature on map is predicted temp for July 2020
   - When temperature button is clicked, the visualization turns from displaying population km^2 to predicted high and predicted   low temperature for July 2020
   - Color of map shows the average change in temperature (predicted high - predicted low) for July 2020
   - Legend in red is aligned with delta of temperature
-  
+#
+Canada's predicted temperature is retrieved from below links, and self added to csv
+  - https://www.weather-ca.com/en/canada
+  -  https://www.accuweather.com/en/ca/canada-weather
  
   
