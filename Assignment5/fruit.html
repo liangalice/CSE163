@@ -1,0 +1,37 @@
+
+<html>
+    <script type=”text/javascript” src=https://d3js.org/d3.v5.min.js></script>
+    
+        <div style="background-color: lightgray; color:red" id="grape"></div>
+        <div style="background-color: lightgray;color: brown" id="kiwi"> </div>
+        <div style="background-color: lightgray; color:yellow" id="banana"></div>
+
+		<script>
+            
+             var fruits = [
+                    {
+                        kind: "grape",
+                        color: "red",
+                        quantity: 12,
+                        tasty: true
+                    },
+                    {
+                        kind: "kiwi",
+                        color: "brown",
+                        quantity: 98,
+                        tasty: true
+                    },
+                    {
+                        kind: "banana",
+                        color: "yellow",
+                        quantity: 0,
+                        tasty: true
+                    }
+                ];
+
+            document.getElementById("kiwi").innerHTML = fruits[1].quantity + " "+ fruits[1].kind;  
+            document.getElementById("grape").innerHTML = fruits[0].quantity + " "+ fruits[0].kind;    
+            document.getElementById("banana").innerHTML = fruits[2].quantity + " "+ fruits[2].kind;  
+    </script>
+     
+</html>
