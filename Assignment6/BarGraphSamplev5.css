@@ -1,0 +1,33 @@
+/*
+    !look at the name of the background color!
+*/
+
+body{
+    background-color: aliceblue;
+}
+
+p{
+    text-indent: 40px;
+}
+
+/*Add .axis path and .axis line commands as described in the book */
+
+/* added lines 12 -20
+
+
+sets the x/y axis to have a color of green
+*/
+
+
+.axis path, 
+.axis line 
+{
+stroke: green;
+shape-rendering: crispEdges; }
+
+
+.axis text{
+    font: Times;
+    font-size: 12px;
+    font-weight: bold;
+}
