@@ -16,12 +16,32 @@
       
           <p>
           <button id="changeClick" type="button" style="background-color: bisque">Emissions </button></p>
+<div id="tooltip" class="hidden"></div>
+             <label id="typeClick" for="cars">Choose A Country :</label>
 
-          <b id="minValue">vers</b>
+    <select onchange="changeName()" name="cars" id="type">
+      <option  value="Choose A Country">Country</option>
+      <option  value="Brazil">Brazil</option>
+      <option value="Canada">Canada</option>
+      <option value="China">China</option>
+      <option value="Germany">Germany</option>
+      <option value="Ecuador">Ecuador</option>
+      <option value="Hong Kong">Hong Kong</option>
+      <option value="India">India</option>
+      <option value="Japan">Japan</option>
+      <option value="South Korea">South Korea</option>
+      <option value="Singapore">Singapore</option>
+      <option value="Thailand">Thailand</option>
+      <option value="United States">United States</option>
+      <option value="Vietnam">Vietnam</option>
+    </select>
+
+          
       
     <h1 id="titleID"style = "text-align:center; color:steelblue"><bold> World CO₂ Emissions Per Capita 1999 -> 2018 </bold></h1>
     <!-- Your D3.js code for making a Bar Graph -->
     <script type="text/javascript" src="pollution.js"></script>
+    <link rel="stylesheet" type="text/css" href="pollution.css">
 
          <!-- The Tool Tip-->
      <div id="tooltip" class="hidden"></div>
